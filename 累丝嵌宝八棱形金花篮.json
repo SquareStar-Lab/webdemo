@@ -1,0 +1,41 @@
+{
+    "RAPIER_INIT_TIMEOUT": 10000,
+    "MOVE_SPEED": 3,
+    "GRAVITY": [
+        0,
+        -1,
+        0
+    ],
+    "INTERACTION": {
+        "MAX_DISTANCE": 10
+    },
+    "objects": [
+        {
+            "type": "gaussian-model",
+            "url": "https://sqstar.oss-cn-beijing.aliyuncs.com/累丝嵌宝八棱形金花篮.spz",
+            "position": [0,0,2],
+            "rotation": [
+                0,
+                7,
+                -88
+            ]
+        },
+        {
+            "type": "collision-mesh",
+            "url": "quad.glb"
+        },
+        {
+            "type": "image",
+            "url": "31.png",
+            "position": [
+                0,0,-1
+            ],
+            "rotation": [
+                0,0,0
+            ],
+            "scale": 0.2,
+            "to": "水陆庵"
+        }
+    ],
+    "movable_ground": 0.01
+}

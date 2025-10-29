@@ -1,0 +1,62 @@
+{
+    "RAPIER_INIT_TIMEOUT": 10000,
+    "MOVE_SPEED": 3,
+    "GRAVITY": [
+        0,
+        -1,
+        0
+    ],
+    "INTERACTION": {
+        "MAX_DISTANCE": 10
+    },
+    "objects": [
+        {
+            "type": "gaussian-model",
+            "url": "https://sqstar.oss-cn-beijing.aliyuncs.com/昆明池.spz",
+            "rotation": [
+                21,
+                0,
+                -5
+            ]
+        },
+        {
+            "type": "collision-mesh",
+            "url": "quad.glb"
+        },
+        {
+            "type": "image",
+            "url": "21.png",
+            "position": [
+                1.524999999999943,
+                -0.3650000000000003,
+                -6.956000000000658
+            ],
+            "rotation": [
+                -0.270842163208378,
+                -31.829912809198404,
+                0.18828560182929305
+            ],
+            "scale": 0.5796109467205361,
+            "to": "水陆庵"
+        },
+        {
+            "type": "video",
+            "url": "https://sqstar.oss-cn-beijing.aliyuncs.com/0.mp4",
+            "muted": false,
+            "loop": true,
+            "position": [
+                -0.9260000000001518,
+                1.229999999999976,
+                7.821000000001151
+            ],
+            "rotation": [
+                177.71116426530318,
+                -0.19148908691825314,
+                178.4702414326271
+            ],
+            "scale": 2.2618841931187403
+    
+        }
+    ],
+    "movable_ground": 0.01
+}
