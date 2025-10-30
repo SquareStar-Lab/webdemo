@@ -7,7 +7,7 @@
     },
     "objects": [
         { "type": "gaussian-model", "url": "https://sqstar.oss-cn-beijing.aliyuncs.com/水陆庵.spz", "rotation": [-5, 0, 0.5], "scale": 2 },
-        { "type": "collision-mesh", "url": "https://sqstar.oss-cn-beijing.aliyuncs.com/水陆庵.glb", "rotation": [-5, 0, 0.5], "scale": 2 },
+        { "type": "collision-mesh", "url": "https://sqstar.oss-cn-beijing.aliyuncs.com/水陆庵mesh.ply", "rotation": [-5, 0, 0.5], "scale": 2 },
         { "type": "image", "url": "12.png",
             "position": [
                 -5.311000000000108,
