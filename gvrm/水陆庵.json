@@ -1,0 +1,43 @@
+{
+    "RAPIER_INIT_TIMEOUT": 10000,
+    "MOVE_SPEED": 3,
+    "GRAVITY": [0, -1, 0],
+    "INTERACTION": {
+        "MAX_DISTANCE": 10
+    },
+    "objects": [
+        { "type": "gaussian-model", "url": "https://sqstar.oss-cn-beijing.aliyuncs.com/水陆庵.spz", "rotation": [-5, 0, 0.5], "scale": 2 },
+        { "type": "collision-mesh", "url": "https://sqstar.oss-cn-beijing.aliyuncs.com/水陆庵mesh.ply", "rotation": [-5, 0, 0.5], "scale": 2 },
+        { "type": "image", "url": "12.png",
+            "position": [
+                -5.311000000000108,
+                3.921999999999679,
+                3.658999999999708
+            ],
+            "rotation": [
+                138.80643443818659,
+                3.1128966005807004,
+                -173.59537046609452
+            ],
+            "scale": 1
+        , "to": "昆明池"},
+        { "type": "image", "url": "13.png",
+            "position": [
+                -1.809999999999804,
+                0.18100000000000016,
+                7.726000000000914
+            ],
+            "rotation": [
+                -171.56529109073696,
+                3.7837235984550652,
+                -178.44144562464595
+            ],
+            "scale": 0.39161509872453537
+        , "to": "累丝嵌宝八棱形金花篮"}
+    ],
+    "character": {
+        "gvrm": "https://sqstar.oss-cn-beijing.aliyuncs.com/sample.gvrm",
+        "walking_fbx": "https://sqstar.oss-cn-beijing.aliyuncs.com/Walking.fbx",
+        "idle_fbx": "https://sqstar.oss-cn-beijing.aliyuncs.com/Idle.fbx"
+    }
+}
