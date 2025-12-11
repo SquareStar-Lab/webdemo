@@ -1,0 +1,36 @@
+{
+    "entities": {
+        "scene": {
+            "scale": 4,
+            "rotation": [-14,0,-178],
+            "$gs": "https://sqstar.oss-cn-beijing.aliyuncs.com/运城/2楼6党建馆.sog",
+            "$collider": "https://sqstar.oss-cn-beijing.aliyuncs.com/运城/2楼6党建馆.glb",
+            "children":  [
+                {
+                    "position": [
+                        -4.053105422363335,
+                        0.0932191880196808,
+                        0.9124122786664788
+                    ],
+                    "rotation": [
+                        -72.79242438888961,
+                        -21.63924467608236,
+                        -8.93320224260251
+                    ],
+                    "$plane":  {
+                        "width": 0.4,
+                        "height": 0.8,
+                        "texture": "运城/back.png"
+                    },
+                    "$portal": "?scene=运城/大厅.json"
+                }
+            ]
+        },
+        "floor": {"$floor": {"altitude": -2.2}},
+        "player": {
+            "position": [0,0,0],
+            "$fp_player": {}
+        }
+    },
+    "physics": true
+}

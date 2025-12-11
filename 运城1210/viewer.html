@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      #scene-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .spin {
+        height: 40vmin;
+        width: 40vmin;
+        position: fixed;
+        top: calc(50% - 20vmin);
+        left: calc(50% - 20vmin);
+        border: solid 1vmin;
+        border-radius: 50%;
+        border-color: cyan transparent transparent transparent;
+        animation: rotate 3s linear infinite;
+      }
+      @keyframes rotate {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="assets/viewer-B2e1Oxwg.js"></script>
+  </head>
+  <body>
+    <div id="scene-container" tabindex="0"></div>
+    <div id="loading" class="spin"></div>
+  </body>
+</html>

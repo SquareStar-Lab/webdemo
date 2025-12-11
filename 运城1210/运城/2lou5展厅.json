@@ -1,0 +1,32 @@
+{
+    "entities": {
+        "scene": {
+            "scale": 4,
+            "rotation": [2, 0, 181],
+            "$gs": "https://sqstar.oss-cn-beijing.aliyuncs.com/运城/2lou5展厅.sog",
+            "$collider": "https://sqstar.oss-cn-beijing.aliyuncs.com/运城/2lou5展厅.glb",
+            "children":  [
+                {
+                    "position": [
+                        -3.2610909706906126,
+                        0.1514031204032409,
+                        1.9696620289086904
+                    ],
+                    "rotation": [-90,-28,0],
+                    "$plane":  {
+                        "width": 0.4,
+                        "height": 0.8,
+                        "texture": "运城/back.png"
+                    },
+                    "$portal": "?scene=运城/大厅.json"
+                }
+            ]
+        },
+        "floor": {"$floor": {"altitude": -1.2}},
+        "player": {
+            "position": [0,0,0],
+            "$fp_player": {}
+        }
+    },
+    "physics": true
+}

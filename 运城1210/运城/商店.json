@@ -1,0 +1,37 @@
+{
+    "entities": {
+        "scene": {
+            "scale": 2,
+            "rotation": [-6, 0, 177.5],
+            "$gs": "https://sqstar.oss-cn-beijing.aliyuncs.com/运城/商店.sog",
+            "$collider": "https://sqstar.oss-cn-beijing.aliyuncs.com/运城/商店.glb",
+            "children": [
+                {
+                    "position": [
+                        -2.379305737436502,
+                        0.6652973548879542,
+                        -4.33755597985405
+                    ],
+                    "rotation": [
+                        91.08368054113006,
+                        -14.311166609534,
+                        -175.8744536107744
+                    ],
+                    "$plane": {
+                        "width": 1,
+                        "height": 2,
+                        "texture": "运城/back.png"
+                    },
+                    "$portal": "?scene=运城/大厅.json"
+                }
+            ]
+        },
+
+        "floor": {
+            "$floor": {"altitude": -1.9}
+        },
+        "player": {
+            "$fp_player": {}
+        }
+    }
+}

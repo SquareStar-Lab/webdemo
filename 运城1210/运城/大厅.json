@@ -1,0 +1,140 @@
+{
+    "entities": {
+        "scene": {
+            "scale": 2,
+            "rotation": [0, 0, 180],
+            "$gs": "https://sqstar.oss-cn-beijing.aliyuncs.com/运城/大厅.sog",
+            "children": [
+                {
+                    "position": [
+                        -2.4987348672351266,
+                        0.5622573731496858,
+                        -2.849684265527924
+                    ],
+                    "rotation": [90,-30,180],
+                    "$plane": {
+                        "width": 0.7,
+                        "height": 1.4,
+                        "texture": "运城/go_out.png"
+                    },
+                    "$portal": "?scene=运城/博物馆航拍.json"
+                },
+                {
+                    "position": [
+                        -1,
+                        0.55,
+                        -2.760108267285135
+                    ],
+                    "rotation": [90,13,180],
+                    "$plane": {
+                        "width": 0.7,
+                        "height": 1.4,
+                        "texture": "运城/2-6.png"
+                    },
+                    "$portal": "?scene=运城/2楼6党建馆.json&pos=-7.257577419281006%2C-1.2000010013580322%2C16.067873001098633&yaw=-5"
+                },
+                {
+                    "position": [
+                        0.0924833656211985,
+                        0.55,
+                        -2.760108267285135
+                    ],
+                    "rotation": [90,13,180],
+                    "$plane": {
+                        "width": 0.7,
+                        "height": 1.4,
+                        "texture": "运城/2-5.png"
+                    },
+                    "$portal": "?scene=运城/2lou5展厅.json&pos=-18.46111297607422%2C-0.4913519322872162%2C8.93129825592041&yaw=-350.9328000000062"
+                },
+                {
+                    "position": [
+                        1.0924833656211985,
+                        0.55,
+                        -2.760108267285135
+                    ],
+                    "rotation": [90,13,180],
+                    "$plane": {
+                        "width": 0.7,
+                        "height": 1.4,
+                        "texture": "运城/3.png"
+                    },
+                    "$portal": "?scene=运城/3楼室内.json&pos=12.063858985900879%2C0.1999996304512024%2C0.7836740016937256&yaw=-647.8732800000017"
+                },
+                {
+                    "position": [
+                        2.0924833656211985,
+                        0.55,
+                        -2.760108267285135
+                    ],
+                    "rotation": [90,13,180],
+                    "$plane": {
+                        "width": 0.7,
+                        "height": 1.4,
+                        "texture": "运城/馆藏珍品.png"
+                    },
+                    "$portal": "?scene=运城%2F1-2.json&debug=1&pos=-1.1118054389953613%2C-0.9016330242156982%2C8.995491027832031&yaw=-336.1886399999972"
+                },
+                {
+                    "position": [
+                        3.0924833656211985,
+                        0.55,
+                        -2.760108267285135
+                    ],
+                    "rotation": [90,13,180],
+                    "$plane": {
+                        "width": 0.7,
+                        "height": 1.4,
+                        "texture": "运城/华夏之源.png"
+                    },
+                    "$portal": "?scene=运城%2F运城一号厅.json&pos=10.337708473205566%2C0.3499995172023773%2C23.422029495239258&yaw=90"
+                },
+                {
+                    "position": [
+                        5.2780156673235386,
+                        0.8505403532916934,
+                        1.7527436241074952
+                    ],
+                    "rotation": [
+                        -100,84,0
+                    ],
+                    "$plane": {
+                        "width": 0.8,
+                        "height": 0.8,
+                        "texture": "运城/store.png"
+                    },
+                    "$portal": "?scene=运城/商店.json&pos=3.501767635345459%2C-0.9002530574798584%2C-4.895127296447754&yaw=-200"
+                }
+            ]
+        },
+        "floor": {
+            "$floor": {"altitude": -2.3}
+        },
+        "player": {
+            "$fp_player": {}
+        },
+        "info1": {
+            "position": [
+                1.3200000000000012,
+                -1.4200000000000008,
+                -6.829999999999899
+            ],
+            "scale": 0.05,
+            "$info": {
+                "content": "我能吞下玻璃而不伤身体"
+            }
+        },
+        "info2": {
+            "position": [
+                2.729999999999986,
+                -1.4200000000000008,
+                -6.829999999999899
+            ],
+            "scale": 0.05,
+            "$info": {
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            }
+        }
+    },
+    "physics": true
+}

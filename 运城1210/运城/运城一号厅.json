@@ -1,0 +1,70 @@
+{
+    "entities": {
+        "scene": {
+            "scale": 4,
+            "rotation": [3,0,179],
+            "$gs": "https://sqstar.oss-cn-beijing.aliyuncs.com/运城/运城一号厅.sog",
+            "$collider": "https://sqstar.oss-cn-beijing.aliyuncs.com/运城/运城一号厅.glb",
+            "children":  [
+                {
+                    "position": [
+                        -3.2924568064853275,
+                        0.30418577159000754,
+                        5.927158164390081
+                    ],
+                    "rotation": [-90,-80,0
+                    ],
+                    "$plane": {
+                        "width": 0.4,
+                        "height": 0.8,
+                        "texture":"运城/back.png"
+                    },
+                    "$portal": "?scene=运城/大厅.json"
+                },
+                {
+                    "position": [
+                        -0.13967886700724447,
+                        -0.19000000000000017,
+                        -3.4785208470119384
+                    ],
+                    "rotation": [
+                        89.99999999999906,
+                        27.399999999999466,
+                        180
+                    ],
+                    "$plane": {
+                        "width": 0.2,
+                        "height": 0.4,
+                        "texture":"运城/back.png"
+                    },
+                    "$portal": "?scene=运城/大厅.json"
+                },
+                {
+                    "position": [
+                        -0.8972844980400608,
+                        -0.19000000000000133,
+                        -3.6914550642425343
+                    ],
+                    "rotation": [
+                        89.99999999999916,
+                        -0.10000000000057459,
+                        -179.99999999999957
+                    ],
+                    "$plane": {
+                        "width": 0.25,
+                        "height": 0.5,
+                        "texture":"运城/馆藏珍品.png"
+                    },
+                    "$portal": "?scene=运城%2F1-2.json&debug=1&pos=-1.1118054389953613%2C-0.9016330242156982%2C8.995491027832031&yaw=-336.1886399999972"
+                }
+            ]
+        },
+        "floor": {
+            "$floor": {"altitude": -0.65}
+        },
+        "player": {
+            "$fp_player": {}
+        }
+    },
+    "physics": true
+}

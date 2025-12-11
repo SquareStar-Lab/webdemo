@@ -1,0 +1,39 @@
+{
+    "entities": {
+        "scene": {
+            "scale": 2,
+            "rotation": [0, 0, 173],
+            "$gs": "https://sqstar.oss-cn-beijing.aliyuncs.com/运城/3楼室内.sog",
+            "$collider": "https://sqstar.oss-cn-beijing.aliyuncs.com/运城/3楼室内.glb",
+            "children": [
+                {
+                    "position": [
+                        0.999181060902998,
+                        0.2283052679902776,
+                        -4.031999324821901
+                    ],
+                    "rotation": [
+                        91.18826380265878,
+                        -27.90852432824256,
+                        -176.16279350882834
+                    ],
+                    "$plane": {
+                        "width": 0.6,
+                        "height": 1.2,
+                        "texture": "运城/back.png"
+                    },
+                    "$portal": "?scene=运城/大厅.json"
+                }
+            ]
+        },
+        "floor": {
+            "$floor": {"altitude": -0.8}
+        },
+        "player": {
+            "$fp_player": {
+                "camera_height": 1
+            }
+        }
+    },
+    "physics": true
+}

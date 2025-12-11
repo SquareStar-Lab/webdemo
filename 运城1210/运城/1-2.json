@@ -1,0 +1,72 @@
+{
+    "entities": {
+        "scene": {
+            "scale": 3,
+            "rotation": [-3,0,-179],
+            "$gs": "https://sqstar.oss-cn-beijing.aliyuncs.com/运城/1-2.sog",
+            "$collider": "https://sqstar.oss-cn-beijing.aliyuncs.com/运城/1-2.glb",
+            "children":  [
+                {
+                    "position": [
+                        -4.135788725720937,
+                        -0.06999999999999738,
+                        0.5521709559397442
+                    ],
+                    "rotation": [
+                        -90,
+                        -75,
+                        0
+                    ],
+                    "$plane": {
+                        "width": 0.7,
+                        "height": 1.4,
+                        "texture":"运城/cont.png"
+                    },
+                    "$portal": "?scene=运城/1-1.json&pos=-14.36789321899414,-0.7861029505729675,15.273286819458008&yaw=-52"
+                },
+                {
+                    "position": [
+                        -4.319672036099096,
+                        -0.06999999999999738,
+                        2.3965816043244725
+                    ],
+                    "rotation": [
+                        -49.26147540186507,
+                        -84.18866672821345,
+                        -40.88455932791355
+                    ],
+                    "$plane": {
+                        "width": 0.7,
+                        "height": 1.4,
+                        "texture":"运城/cont.png"
+                    },
+                    "$portal": "?scene=运城/1-1.json&pos=-14.36789321899414,-0.7861029505729675,15.273286819458008&yaw=-52"
+                },
+                {
+                    "position": [
+                        0.049999999999999975,
+                        -0.04000000000000059,
+                        4.059999999999958
+                    ],
+                    "rotation": [-90,0,0],
+                    "$plane": {
+                        "width": 0.5,
+                        "height": 1,
+                        "texture":"运城/back.png"
+                    },
+                    "$portal": "?scene=运城/大厅.json"
+                }
+            ]
+        },
+        "floor": {
+            "$floor": {"altitude": -1.9}
+        },
+        "player": {
+            "position": [2,0,0],
+            "$fp_player": {
+                "camera_height": 2.5
+            }
+        }
+    },
+    "physics": true
+}

@@ -1,0 +1,43 @@
+{
+    "entities": {
+        "scene": {
+            "scale": 10,
+            "rotation": [-21, 0, 179],
+            "$gs": "https://sqstar.oss-cn-beijing.aliyuncs.com/运城/博物馆航拍.sog",
+            "children": [
+                {
+                    "position": [
+                        -0.5599999999999945,
+                        1.8944037740878403,
+                        -1.4411042056548067
+                    ],
+                    "rotation": [
+                        -76.49999999999946,
+                        0,
+                        0
+                    ],
+                    "$plane": {
+                        "width": 0.15396398378814233,
+                        "height": 0.30792796757628466,
+                        "texture": "运城/go_in.png"
+                    },
+                    "$redirect": "?scene=运城/大厅.json"
+                }
+            ]
+        },
+        "camera": {
+            "camera": { "fov": 90 },
+            "script": [
+                {
+                    "name": "cam_control",
+                    "properties": {
+                        "enableFly": true
+                    }
+                },
+                {
+                    "name": "mouseraycaster"
+                }
+            ]
+        }
+    }
+}
